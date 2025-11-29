@@ -1,0 +1,17 @@
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/preflight.css' layer(base);
+@import 'tailwindcss/utilities.css';
+
+@import 'nativewind/theme';
+
+@theme {
+  --color-white: #fff;
+  --color-green-400: #70e1c1;
+  --color-green-500: #3ecf8f;
+
+  --color-gray-400: #707070;
+  --color-gray-500: #2d2d2d;
+  --color-gray-600: #232323;
+  --color-gray-700: #1c1c1c;
+  --color-gray-800: #161616;
+}
